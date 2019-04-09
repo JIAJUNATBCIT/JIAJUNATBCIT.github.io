@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../bootstrap/cover.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/GLOBAL.css" />
+    <link rel="stylesheet" type="text/css" href="../css/contact.css" />
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCoddEYKaDlsxZ-zyUINpwR-8gijB0W8L4",
+            authDomain: "jun-cv.firebaseapp.com",
+            databaseURL: "https://jun-cv.firebaseio.com",
+            projectId: "jun-cv",
+            storageBucket: "jun-cv.appspot.com",
+            messagingSenderId: "594618724050"
+        };
+        firebase.initializeApp(config);
+    </script>
+</head>
+<body>
+<div class="main_content">
+    <div class="main_title_container d-flex flex-column align-items-start justify-content-end">
+        <div class="main_subtitle">Let's be friends...</div>
+        <div class="main_title">Contact Me</div>
+    </div>
+    <div class="main_content_scroll" data-mcs-theme="minimal-dark">
+        <form>
+            <div class="form-group">
+                <label for="usrname">User Name</label>
+                <input type="text" class="form-control" id="usrname" aria-describedby="userHelp" placeholder="Enter your name">
+                <small id="userHelp" class="form-text text-muted">User name can't be blank.</small>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <textarea id="introduction" rows = "10" cols="40" placeholder="Tell me something about you....."></textarea>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="addData()">Submit!</button>
+        </form>
+    </div>
+</div>
+<script src="../bootstrap/jquery-3.2.1.slim.min.js"></script>
+<script src="../bootstrap/popper.min.js"></script>
+<script src="../bootstrap/bootstrap.min.js"></script>
+<script src="../js/contact.js"></script>
+</body>
+</html>

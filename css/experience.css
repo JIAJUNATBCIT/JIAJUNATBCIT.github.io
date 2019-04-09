@@ -1,0 +1,74 @@
+.main_content
+{
+    background: #f0efe2;
+    width: 100%;
+    height: 100%;
+}
+.main_title_container
+{
+    width: 90%;
+    padding: 30px 40px 20px 30px;
+}
+.main_subtitle
+{
+    font-size: 30px;
+    font-weight: 500;
+    color: #7a798c;
+    line-height: 0.75;
+}
+.main_title
+{
+    font-size: 92px;
+    font-weight: 800;
+    color: #100f3a;
+    line-height: 0.75;
+    margin-top: 12px;
+}
+.main_content_scroll
+{
+    margin-top: 70px;
+    max-height: calc(100% - 183px - 134px);
+    padding-right: 100px;
+}
+.experience
+{
+    width: 100%;
+    padding-bottom: 65px;
+}
+.exp_item:not(:last-child)
+{
+    margin-bottom: 53px;
+}
+.exp_time
+{
+    width: 181px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #8583e1;
+    line-height: 0.75;
+    text-align: right;
+    white-space: nowrap;
+}
+.exp_content
+{
+    padding-left: 25px;
+}
+.exp_title
+{
+    font-size: 24px;
+    font-weight: 700;
+    color: #100f3a;
+    line-height: 0.75;
+}
+.exp_subtitle
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: #838383;
+    margin-top: 7px;
+}
+.exp_text
+{
+    margin-top: 18px;
+    color: #59546d;
+}

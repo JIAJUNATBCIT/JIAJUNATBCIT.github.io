@@ -1,0 +1,51 @@
+.main_content
+{
+    background: #f0efe2;
+    width: 100%;
+    height: 100%;
+}
+.main_title_container
+{
+    width: 90%;
+    padding: 30px 40px 20px 30px;
+}
+.main_subtitle
+{
+    font-size: 30px;
+    font-weight: 500;
+    color: #7a798c;
+    line-height: 0.75;
+}
+.main_title
+{
+    font-size: 92px;
+    font-weight: 800;
+    color: #100f3a;
+    line-height: 0.75;
+    margin-top: 12px;
+}
+
+.hobby_text
+{
+    line-height: 40px;
+    margin-top: 5px;
+    color: #59546d;
+}
+
+.card-deck
+{
+    width: 90%;
+    margin-top: 40px;
+}
+
+.card
+{
+    align-items: center;
+    width: 500px;
+}
+
+.card img
+{
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+}

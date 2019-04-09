@@ -1,0 +1,53 @@
+.f_title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 10pt;
+    vertical-align: middle;
+}
+
+.f_label
+{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.f_content
+{
+    font-family: Times New Roman;
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+html
+{
+    background-color: #ffffff;
+}
+
+body{
+    font-family:'Montserrat', sans-serif;
+    font-size:14px;
+    font-weight:400;
+    background-color: #f0efe2;
+    color:#a5a5a5;
+    height: 0;
+}
+
+ul
+{
+    list-style: none;
+    margin-bottom:0px;
+}
+
+div
+{
+    display:block;
+}
