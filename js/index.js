@@ -78,7 +78,10 @@ $(document).ready(function(){
     {
         menu.removeClass("active");
         menuActive = false;
-        document.getElementById("nav").style.visibility = "visible";
+	if(window.innerWidth >= 1280) {
+		document.getElementById("nav").style.visibility = "visible";
+	}
+        
     }
 });
 

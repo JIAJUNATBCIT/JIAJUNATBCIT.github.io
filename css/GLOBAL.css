@@ -1,5 +1,5 @@
 .f_title {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     font-weight: bold;
     font-size: 10pt;
     vertical-align: middle;
@@ -7,14 +7,14 @@
 
 .f_label
 {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     font-weight: bold;
     font-size: 10pt;
 }
 
 .f_content
 {
-    font-family: Times New Roman;
+    font-family: Times New Roman, sans-serif;
     font-weight: normal;
     font-size: 10pt;
 }

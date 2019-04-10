@@ -46,8 +46,6 @@
 .main_container
 {
     width:100vw;
-    height:100vh;
-    overflow:hidden;
     padding-left:40px;
     padding-bottom:45px;
     padding-right:41px;
@@ -106,8 +104,6 @@
 {
     float:left;
     width:100%;
-    height:100%;
-    overflow:hidden;
 }
 
 .general_intro
@@ -124,10 +120,7 @@
     background: #f0efe2;
     width:70%;
     float:right;
-    overflow:hidden;
 }
-
-
 
 .general_info_content
 {
@@ -136,8 +129,7 @@
     padding-left:77px;
     padding-top:49px;
     padding-right:15px;
-    padding-bottom:20px;
-    overflow: hidden;
+    padding-bottom:50px;
 }
 
 .general_info_content_inner
