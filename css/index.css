@@ -46,6 +46,8 @@
 .main_container
 {
     width:100vw;
+    height: 100vh;
+    overflow: hidden;
     padding-left:40px;
     padding-bottom:45px;
     padding-right:41px;
